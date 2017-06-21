@@ -1,0 +1,53 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{KumarGajar.2013}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Kumar Gajar}}{K.}%
+     {Prashant}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ghosh}{G.}%
+     {Arnab}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rai}{R.}%
+     {Shashikant}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KPGARS1}
+  \strng{fullhash}{KPGARS1}
+  \field{sortinit}{K}
+  \field{number}{4}
+  \field{pages}{62\bibrangedash 70}
+  \field{title}{Bring Your Own Device (BYOD):~Security Risks And Mitigating
+  Strategies}
+  \field{volume}{4}
+  \field{journaltitle}{Journal of Global Research in Computer Science}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
