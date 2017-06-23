@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.24)  21 JUN 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.24)  23 JUN 2017 10:59
 entering extended mode
 **dokumentation.tex
 (dokumentation.tex
@@ -1824,28 +1824,32 @@ Class scrreprt Warning: \float@listhead detected!
 
 
 
-] (introduction.tex) (byod.tex
+] (introduction.tex
 Chapter 1.
+) (byod.texpdfTeX warning (ext4): destination with the same identifier (name{pa
+ge.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Bring your own Device (BYOD)} [1
+
+
+
+]
+Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.15 
-      [1
-
-
+[2
 
 ]
 
-LaTeX Warning: Citation 'IBMSecurity.2016' on page 2 undefined on input line 22
+LaTeX Warning: Citation 'IBMSecurity.2016' on page 3 undefined on input line 22
 .
 
-<images/control_v_satisfaction.png, id=114, 612.78937pt x 335.00156pt>
+<images/control_v_satisfaction.png, id=122, 612.78937pt x 335.00156pt>
 File: images/control_v_satisfaction.png Graphic file (type png)
 
 <use images/control_v_satisfaction.png>
@@ -1856,11 +1860,11 @@ Package pdftex.def Info: images/control_v_satisfaction.png used on input line 2
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[2]
+[3]
 
-LaTeX Warning: Citation 'Disterer.2013' on page 3 undefined on input line 30.
+LaTeX Warning: Citation 'Disterer.2013' on page 4 undefined on input line 30.
 
-<images/architectural_concepts.png, id=125, 1094.58937pt x 515.67656pt>
+<images/architectural_concepts.png, id=133, 1094.58937pt x 515.67656pt>
 File: images/architectural_concepts.png Graphic file (type png)
 
 <use images/architectural_concepts.png>
@@ -1869,32 +1873,79 @@ Package pdftex.def Info: images/architectural_concepts.png used on input line 3
 (pdftex.def)             Requested size: 455.24417pt x 214.47389pt.
 
 
-LaTeX Warning: Citation 'Disterer.2013' on page 3 undefined on input line 33.
+LaTeX Warning: Citation 'Disterer.2013' on page 4 undefined on input line 33.
 
 
-LaTeX Warning: Citation 'Disterer.2013' on page 3 undefined on input line 33.
+LaTeX Warning: Citation 'Disterer.2013' on page 4 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Disterer.2013' on page 4 undefined on input line 38.
+
+
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+
+[4 <./images/control_v_satisfaction.png> <./images/architectural_concepts.png>]
+
+LaTeX Warning: Citation 'Disterer.2013' on page 5 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Disterer.2013' on page 5 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Husain.2008' on page 5 undefined on input line 45.
+
+
+LaTeX Warning: Citation 'Disterer.2013' on page 5 undefined on input line 45.
+
+<images/appVirtual.png, id=144, 1927.2pt x 632.3625pt>
+File: images/appVirtual.png Graphic file (type png)
+
+<use images/appVirtual.png>
+Package pdftex.def Info: images/appVirtual.png used on input line 47.
+(pdftex.def)             Requested size: 455.24417pt x 149.37714pt.
+
+
+LaTeX Warning: Citation 'Egmason.2011' on page 5 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'Egmason.2011' on page 5 undefined on input line 48.
+
+
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+
+[5]
+
+LaTeX Warning: Citation 'Disterer.2013' on page 6 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'Disterer.2013' on page 6 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'Disterer.2013' on page 6 undefined on input line 56.
 
 ) (iot.tex
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[3 <./images/control_v_satisfaction.png> <./images/architectural_concepts.png>]
-Chapter 2.
-) (regulation.tex [4
-
-]
+[6 <./images/appVirtual.png>]
 Chapter 3.
-) (implementation.tex [5
+) (regulation.tex [7
 
 ]
 Chapter 4.
-) (conclusion.tex [6
+) (implementation.tex [8
 
 ]
 Chapter 5.
-) [7
+) (conclusion.tex [9
 
-] (dokumentation.gls) [8
+]
+Chapter 6.
+) [10
+
+] (dokumentation.gls) [11
 
 
 
@@ -1918,11 +1969,11 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'dokumentation.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 34073 strings out of 493698
- 598639 string characters out of 3144415
+ 34105 strings out of 493698
+ 599016 string characters out of 3144415
  1094103 words of memory out of 3000000
- 36549 multiletter control sequences out of 15000+200000
- 61895 words of font info for 77 fonts, out of 3000000 for 9000
+ 36556 multiletter control sequences out of 15000+200000
+ 62555 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  72i,10n,80p,1821b,2368s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -1934,9 +1985,9 @@ am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
 lic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dokumentation.pdf (17 pages, 383668 bytes).
+Output written on dokumentation.pdf (20 pages, 498982 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 20129 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 20142 words of extra memory for PDF output out of 20736 (max. 10000000)
 

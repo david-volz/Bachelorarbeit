@@ -27,12 +27,34 @@ These 4 concepts are not a strict representation of all possibilities. For examp
 \end{figure}
 
 \section{Architectural Concepts}
-There are different technological approaches for using BYOD in a company. Figure \ref{fig:architectural_concepts} shows how company applications can be used from an end user device.  \parencite{Disterer.2013}
+There are different technological approaches for using BYOD in a company. Figure \ref{fig:architectural_concepts} shows how company applications can be used from an end user device. The different approaches are compared between presentation, application execution, application launch and data storage. While most of the approaches do not need to store the data on the device, it can be done to optimize network or hardware usage \parencite{Disterer.2013}
 \begin{figure}[H]
 	\includegraphics[width=1\linewidth]{images/architectural_concepts}
 	\caption{Architectural Concepts and Technological Approaches \parencite{Disterer.2013}}
 	\label{fig:architectural_concepts}
 \end{figure}
+\begin{enumerate}
+	\item Virtual Desktop \\
+	The employee device launches a virtual machine on a server in the company's network. Every part of the application runs on the server, even the presentation. This makes it the mobile equivalent to a terminal server. As with terminals, all the information for the presentation and user input is sent over the network. However, with a stationary terminal bandwidth is not such a big problem as with mobile devices, which makes this approach not feasible for the time being.  \parencite{Disterer.2013}
+	\item Session Virtualization \\
+	In \textit{session virtualization}, the client also starts an application on a server in the company's network. The execution and data storage is all done by the server, but the user interface is created on the client device. This reduces the bandwidth, since the client does not need as much information to create the user interface as the \textit{virtual desktop} does to provide the interface itself. Since the end user device creates the interface, the look \& feel and the control scheme can be device specific. This however requires additional implementation effort for each device. \parencite{Disterer.2013}
+	\item Web Application \\
+	With pure HTML \& CSS this is a special kind of \textit{session virtualization}. If the HTML is extended by JavaScript or some enhanced HTML5 functions, this is considered a \textit{Hybrid Application} instead of a \textit{session virtualization}. Nowadays \textit{web applications} are widely used in many areas. There is a great number of implementations of the standard. For virtually every device there is a browser, which can display the information from the web server. Compared to \textit{virtual desktops} and other \textit{session virtualizations} the bandwidth used is low, making it a better solution for mobile devices. \\
+	While the use of a standardized solution is a big advantage for the most part, it also can have disadvantages. For example there is more malware for widely spread software. Another disadvantage is that modern browser access the local system and store potentially confidential data on the device, which poses a security risk. \parencite{Disterer.2013}
+	\item Application Virtualization \\
+	As seen in Figure \ref{fig:appVirtual} below, in \textit{Application Virtualization} the applications run in an emulator instead of just on top of the operating system. The functions of the operating system are emulated for the application. \parencite{Husain.2008} This has the advantage that the application does not have to be developed for multiple systems. If a new system gets released or an old system gets updated, the developers only need to change the emulator but not all the applications that are supposed to run on that system. With this approach applications often run in separate sandboxes/containers. The applications therefore are isolated from other software running on the device. This reduces the risk of another software interfering with the application as well as preventing it from accessing personal data on the device. \parencite{Disterer.2013}
+	\begin{figure}[H]
+		\includegraphics[width=1\linewidth]{images/appVirtual}
+		\caption{Application running in a native environment and an application virtualization environment \parencite{Egmason.2011}}
+		\label{fig:appVirtual}
+	\end{figure}
+	\item Hybrid Application \\
+	\textit{Hybrid Applications} combine \textit{Session Virtualization} with \textit{Native Applications}. The most widespread example are web applications. Locally JavaScript and HTML can execute some parts of the application and the other part is executed on the web server. For the most part \textit{hybrid applications} should be considered as \textit{native applications} when it comes to security  \parencite{Disterer.2013}
+	\item Native Application \\
+	 \parencite{Disterer.2013}
+	\item Virtual Machine \\
+	 \parencite{Disterer.2013}
+\end{enumerate}
 
 \section{Disadvantages}
 
