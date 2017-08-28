@@ -14,44 +14,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Internet of Things (IoT)}{2}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Issues}{2}{section.2.1}
+\contentsline {section}{\numberline {2.1}Issues}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Bring your own Device (BYOD)}{3}{chapter.3}
+\contentsline {chapter}{\numberline {3}Bring your own Device (BYOD)}{4}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Device Provisioning}{3}{section.3.1}
+\contentsline {section}{\numberline {3.1}Issues [TODO]}{4}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Architectural Concepts}{5}{section.3.2}
+\contentsline {chapter}{\numberline {4}Setup}{6}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Issues [TODO]}{8}{section.3.3}
+\contentsline {section}{\numberline {4.1}Infrastructure}{6}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Setup}{10}{chapter.4}
+\contentsline {subsection}{\numberline {4.1.1}Hardware}{6}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Infrastructure}{10}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.2}Software}{6}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Hardware}{10}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Devices}{7}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Software}{10}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {5}Device Onboarding}{8}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Device Onboarding}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Convenience Store}{8}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Convenience Store}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}BYOD}{8}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}BYOD}{11}{section.5.2}
+\contentsline {section}{\numberline {5.3}Camera}{8}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Camera}{11}{section.5.3}
+\contentsline {section}{\numberline {5.4}Raspberry Pi}{8}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Raspberry Pi}{11}{section.5.4}
+\contentsline {chapter}{\numberline {6}Security}{9}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Security}{12}{chapter.6}
+\contentsline {section}{\numberline {6.1}Native IP}{9}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Native IP}{12}{section.6.1}
+\contentsline {section}{\numberline {6.2}Analogue}{9}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Analogue}{12}{section.6.2}
+\contentsline {section}{\numberline {6.3}Threat}{9}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Threat}{12}{section.6.3}
+\contentsline {chapter}{\numberline {7}Implementation}{10}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Implementation}{13}{chapter.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusion}{14}{chapter.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{15}{chapter*.8}
+\contentsline {chapter}{\numberline {8}Conclusion}{11}{chapter.8}

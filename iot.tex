@@ -1,27 +1,21 @@
 \chapter{Internet of Things (IoT)}
 
-The \textit{Internet of Things} is the idea of connecting everything. Even things that were not made for connectivity. For example heaters, windows, doors, lights and any device within a house can be connected to create a smart home. //
-\textit{Internet of Things} has a few advantages for consumer and producer.
+The \textit{Internet of Things} is the idea of connecting every device that creates data in any way. Even things that initially were not made for connectivity. For example heaters, windows, doors, lights and fridges. The data gets analysed and evaluated, such that a controller can adjust other devices as needed. \\
+The idea of a smart home, which automatically regulates the temperature, light and orders new groceries when needed, can be realized by connecting everything within a house. The light is automatically turned off if nobody is at home, the heater is turned on if it gets too cold and groceries are ordered if the fridge detects a low amount of food.  \\
+Advantages the \textit{Internet of Things} has for consumer and producer are listed here:
 \begin{itemize}
-	 \item It is, for example, possible to analyse usage data for products. This lets the producer see, what features are used the most and improve them. On the other hand this makes it possible 
-	 \item The User can access the device via a web interface 
-	 \item 
+	 \item The connectivity to other devices can enhance the features and usability of the device. For example, in a smart home a single photo sensor, which measures how much light is within a room, does not do much. But if it is connected to a controller, a motion sensor and the lights, it is possible to automatically turn on the lights, whenever somebody is in the dark room. 
+	 \item Another usage of \textit{IoT} is to customize devices. If we stay with the example of our smart home and look at the photo sensor the user might want to change the sensitivity of the sensor. With IoT it is possible to access the sensor (or controller depending on the setup) via the internet and change the sensitivity, instead of physically accessing it.
+	 \item By connecting the internet and not just to the local network, two other possibilities arise:
+	 \begin{enumerate}
+	 	\item The user can access the devices from anywhere. Whenever he has access to the internet he can access his devices. This makes it, for example, possible to turn off the lights, when the user is not at home and has no physical access to his home network. 
+	 	\item But not only the user can access the device, but also the producer. This is useful, if the producer analyses the usage data to enhance the product. This makes it possible to fix bugs, make corrections to hardware, schedule maintenance downtime, based on when the device is least used and improve features, which are most often used by the users. This overall increases the lifespan of the product and the satisfaction of the customer. \\
+	 	However, this can also come with security risks, which are briefly described in the next chapter among others.  
+	 \end{enumerate}
 \end{itemize}
-- enhance products: \\
-- user customization \\
-- analysis of usage data: \\
-- which features are used often (improve them) \\
-- improve stability \\
-- schedule maintenance \\
-- online access \& troubleshoot \\
-
-smart/connected operations??
-
 
 
 \section{Issues}
-- analysis of usage data (confidential data?)
-- device security standard
-- 
-
-Mirai!
+Even if \textit{IoT} can come with some advantages it also can have some disadvantages. By bringing more and more devices into a network it is hard for the network administrator to keep track of every device. This makes it possible for attackers to bring their own device into the network. But in most cases they do not need to get physical access to the network, since many devices do not have the security standards like most laptops or smartphones have. Together with the sheer amount of different devices \textit{IoT} brings to the network attackers are likely to find some sort of exploit, which grants them access to the network. \\
+But not only attackers can be dangerous for companies, but also the producer of some devices. By analysing the usage data they may get confidential data, which their product uses. If for example a network switch breaks down it may be possible that the network traffic is sent to producer. Within this traffic there might be confidential data, which can be harmful for the company or even illegal. Also there is the possibility that the producer is compromised by hackers, which are then able to get more information of the company, making it more vulnerable to their attacks. \\
+Lately a botnet named mirai demonstrated, how weak the security of IoT devices can be. It was discovered in August 2016 and consists of only IoT devices. Mirai is capable of DDoS attacks with 1TB/s traffic.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.24)  17 JUL 2017 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.24)  28 AUG 2017 18:13
 entering extended mode
 **dokumentation.tex
 (dokumentation.tex
@@ -1660,13 +1660,7 @@ Package biblatex Warning: Data encoding is 'utf8'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dokumentation.bbl' found.
-(dokumentation.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'KumarGajar.2013':
-(biblatex)                - Invalid format of field 'urldate'.
-
-)
+(dokumentation.bbl)
 Package biblatex Info: Reference section=0 on input line 25.
 Package biblatex Info: Reference segment=0 on input line 25.
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
@@ -1837,216 +1831,62 @@ l.1 \chapter
 
 ]
 Chapter 2.
+[2
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--17
+]) (byod.tex
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
- []
 
-) (byod.tex [2
-
-]
+[3]
 Chapter 3.
 
-LaTeX Warning: Citation 'IBMSecurity.2016' on page 3 undefined on input line 5.
+LaTeX Warning: Citation 'IBMSecurity.2016' on page 4 undefined on input line 5.
 
 
-[3
+[4
 
-]
-
-LaTeX Warning: Citation 'IBMSecurity.2016' on page 4 undefined on input line 23
-.
-
-
-Package nag Warning: \label in float, but not after \caption on input line 25.
-
-<images/control_v_satisfaction.png, id=137, 612.78937pt x 335.00156pt>
-File: images/control_v_satisfaction.png Graphic file (type png)
-
-<use images/control_v_satisfaction.png>
-Package pdftex.def Info: images/control_v_satisfaction.png used on input line 2
-6.
-(pdftex.def)             Requested size: 318.66953pt x 174.21202pt.
-
+]) (setup.tex
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[4]
-
-LaTeX Warning: Citation 'Disterer.2013' on page 5 undefined on input line 31.
-
-
-Package nag Warning: \label in float, but not after \caption on input line 33.
-
-<images/architectural_concepts.png, id=149, 1094.58937pt x 515.67656pt>
-File: images/architectural_concepts.png Graphic file (type png)
-
-<use images/architectural_concepts.png>
-Package pdftex.def Info: images/architectural_concepts.png used on input line 3
-4.
-(pdftex.def)             Requested size: 455.24417pt x 214.47389pt.
-
-
-LaTeX Warning: Citation 'Disterer.2013' on page 5 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'Disterer.2013' on page 5 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'Disterer.2013' on page 5 undefined on input line 39.
-
-
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
-
-[5 <./images/control_v_satisfaction.png> <./images/architectural_concepts.png>]
-
-LaTeX Warning: Citation 'Disterer.2013' on page 6 undefined on input line 41.
-
-
-LaTeX Warning: Citation 'Disterer.2013' on page 6 undefined on input line 44.
-
-
-LaTeX Warning: Citation 'Husain.2008' on page 6 undefined on input line 46.
-
-
-LaTeX Warning: Citation 'Disterer.2013' on page 6 undefined on input line 47.
-
-
-Package nag Warning: \label in float, but not after \caption on input line 49.
-
-<images/appVirtual.png, id=159, 1927.2pt x 632.3625pt>
-File: images/appVirtual.png Graphic file (type png)
-
-<use images/appVirtual.png>
-Package pdftex.def Info: images/appVirtual.png used on input line 50.
-(pdftex.def)             Requested size: 455.24417pt x 149.37714pt.
-
-
-LaTeX Warning: Citation 'Egmason.2011' on page 6 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'Egmason.2011' on page 6 undefined on input line 51.
-
-
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
-
-[6]
-
-LaTeX Warning: Citation 'Disterer.2013' on page 7 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Disterer.2013' on page 7 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'Disterer.2013' on page 7 undefined on input line 61.
-
-
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
-
-[7 <./images/appVirtual.png>]
-
-LaTeX Warning: Citation 'Disterer.2013' on page 8 undefined on input line 64.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
-
-[8]) (setup.tex
-Overfull \vbox (7.89444pt too high) has occurred while \output is active []
-
-
-[9]
+[5]
 Chapter 4.
+[6
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
+]) (device_onboarding.tex
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-) (device_onboarding.tex [10
-
-]
+[7]
 Chapter 5.
-) (security.tex [11
+) (security.tex [8
 
 ]
 Chapter 6.
-) (implementation.tex [12
+) (implementation.tex [9
 
 ]
 Chapter 7.
-) (conclusion.tex [13
+) (conclusion.tex [10
 
 ]
 Chapter 8.
-) [14
+) [11
 
-] (dokumentation.gls) [15
+]
 
+LaTeX Warning: Empty bibliography on input line 116.
+
+(dokumentation.gls)
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+
+[12
 
 
 
 ]
-
-Package nag Warning: 3 complaints in total.
-
+No complaints by nag.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
 (dokumentation.aux)
@@ -2064,25 +1904,24 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'dokumentation.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 34162 strings out of 493698
- 599662 string characters out of 3144415
+ 34098 strings out of 493698
+ 598560 string characters out of 3144415
  1095175 words of memory out of 3000000
- 36574 multiletter control sequences out of 15000+200000
- 65998 words of font info for 91 fonts, out of 3000000 for 9000
+ 36538 multiletter control sequences out of 15000+200000
+ 59718 words of font info for 86 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 72i,10n,80p,1821b,2368s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,10n,80p,1821b,1683s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dokumentation.pdf (24 pages, 517490 bytes).
+ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.
+pfb>
+Output written on dokumentation.pdf (21 pages, 247092 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 20718 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 18127 words of extra memory for PDF output out of 20736 (max. 10000000)
 

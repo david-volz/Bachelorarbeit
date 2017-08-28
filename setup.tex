@@ -1,25 +1,38 @@
 \chapter{Setup}
+To demonstrate a solution for the issues of IoT and BYOD a example network is created. It is used to show how to effectively add unknown devices to a corporate network and how the devices interact in the network. Afterwards this setup will be integrated into the existing network of the Customer Technology Center (CTC) at Hewlett Packard Enterprise in Boeblingen to make it accessible to HPE's customers. 
 
 \section{Infrastructure}
 \subsection{Hardware}
 
 \begin{enumerate}
 	\item Switch \\
+	All the described Hard- and Software is connected by a Switch via Ethernet. In this case it is an \textit{Aruba Switch 2920-24G-POE+} with 24 Ethernet ports. Power over Ethernet (POE) makes it possible to power the network devices, without additional power infrastructure.
 	\item Controller \\
+	The controller manages the access points, the WiFi, and all the devices within the network. For this demonstration the controller used is the \textit{Aruba Mobility Controller 7005}. 
 	\item Access Points \\
+	The access points broadcast the WiFi-signal and act as immediate gateway for the connected devices. In this example network three \textit{Aruba Access Points 305} are used.
 	\item Server \\
-	\item Devices \\
-	\begin{enumerate}
-		\item Convenience Store \\
-		\item BYOD \\
-		\item Camera \\
-		\item Raspberry Pi \\
-	\end{enumerate}
+	A mobile workstation is used as the server for the demonstration. Multiple virtual machines are used to run the different applications. Later in the CTC an HPE server will be used. It runs all necessary applications, like an onboarding and AAA-Server.
 \end{enumerate}
 
 \subsection{Software}
-On the server in the network are running mainly two 
+The server in the network is running mainly two applications. 
 \begin{enumerate}
-	\item AirWave \\
-	\item ClearPass \\
+	\item AAA-Server \\
+	As Authentication, Authorization, and Accounting Server \textit{Aruba AirWave} is used. 
+	\item Onboarding Server \\
+	As an onboarding server \textit{Aruba ClearPass} is used to manage all devices from any guest, employee and any IoT device.. 
+\end{enumerate}
+
+
+\section{Devices}
+\begin{enumerate}
+	\item Convenience Store \\
+	A basic setup for a \textit{convenience store} is provided by the \textit{SNAP PAC Learning Center} from \textit{Opto 22}. It has a control board, some control displays and controllers. With the control board, a fuel tank, a freezer door, a photo sensor and an alarm can be simulated. These input signals are processed by the controllers and then the forwarded to the displaying components. These components are a dial to display the current level of the fuel tank, LED lights to show the current state of the \textit{convenience store} and a speaker to give audio feedback. The main controller offers an API to connect to, to make the information accessible from the internet. With this it is possible, to turn any device into an IoT device.
+	\item BYOD \\
+	To simulate a BYOD device any smartphone or laptop can be used. 
+	\item Camera \\
+	The \textit{Wansview IP Security Camera K1} is used as a standard IoT device. In contrast to the \textit{convenience store}, the IP camera represents an IoT device, which is common in modern networks.  
+	\item Raspberry Pi \\
+	Test123
 \end{enumerate}
